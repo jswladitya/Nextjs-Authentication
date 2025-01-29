@@ -7,7 +7,6 @@ import { sendEmail } from '@/helpers/mailer'
 
 connect() //here db connection done
 
-
 export async function POST(request: NextRequest){
     try {
         const reqBody = await request.json()
